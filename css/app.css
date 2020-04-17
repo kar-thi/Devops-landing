@@ -4,6 +4,15 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+.navbar-light.scrolled {
+    background: #fff;
+    box-shadow: 0 0 13px #cecece;
+}
+
+.myNav {
+    z-index: 1000;
+}
+
 p {
     font-size: 15px;
     line-height: 30px;
@@ -28,6 +37,18 @@ section {
     font-weight: 800;
     line-height: 3.5rem;
     color: #1a2e40;
+}
+
+.bannerBtn {
+    background: #DE6262;
+    background: -webkit-linear-gradient(to right, #ef4c5f, #f7993f);
+    background: linear-gradient(to right, #ef4c5f, #f7993f);
+    margin-top: 2rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: #fff;
+    padding: 9px 25px;
+    border-radius: 5px;
 }
 
 .item-center {
@@ -227,4 +248,40 @@ footer .logo {
 
 .entrol {
     padding: 2rem;
+}
+
+
+/* resposive */
+
+@media only screen and (max-width: 992px) {
+    .banner-title {
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 2.5rem;
+        color: #1a2e40;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: 3rem;
+        color: #1a2e40;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .banner-title {
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 3rem;
+        color: #1a2e40;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
 }
